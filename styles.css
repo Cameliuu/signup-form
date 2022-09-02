@@ -21,6 +21,9 @@ html,body{
     text-shadow: 4px 4px 4px black;
     width: 60vw;
 }
+.text-container h1{
+    margin-left: 1vw;
+}
 .photo
 {
     width:35%;
@@ -78,5 +81,18 @@ input:invalid{
 }
 ::placeholder{
     color:#5f788a
+}
+button{
+    position: relative;
+    margin-top:7vh;
+    margin-left:1vw;
+    width: 13vw;
+    height: 7vh;
+    border-radius: 15px;
+    font-size: 2rem;
+    color:#eb9928;
+    background-color:#1b2932;
+    border-color:#eb9928;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
