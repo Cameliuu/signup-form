@@ -113,13 +113,66 @@ button:hover
     bottom: 50%;
 
     width:35%;
+
+
     height:20%
 }
 .logo img{
     position:absolute;
     bottom:50%;
-    left:5%;
+    left:10%;
     width: 10%;
     opacity: 100%;
     height: 20%;
 }
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+.background-text {
+    position: absolute;
+    bottom: 55%;
+    color: #eb9928;
+    font-family: "Norse-Bold";
+    font-size:5rem;
+    left:20%;
+    letter-spacing: 5px;
+}
+.github-link img{
+    height: 4vh;
+    width: 2vw;
+    position: absolute;
+    bottom:-.2vh;
+    left:65%;
+    opacity: 100%;
+}
+.github-link p{
+    position: absolute;
+    bottom:-1.5vh;
+    left:67.5%;
+    color:#eb9928;
+    opacity: 100%;
+    font-size:1.2rem;
+}
+.github-link-background{
+    position: absolute;
+    left:35%;
+    bottom:-0.25%;
+    height:4vh;
+    width: 100%;
+    opacity: 20%;
+    background-color:gray;
+
+}
+.github-link-background:hover{
+    background-color:#eb9928;
+    opacity:20%;
+}
+.github-link:hover p{
+    color:gray;
+}
+.github-link:hover img{
+    content: url("images/github.jpg");
+    opacity: 1;
+}
+
