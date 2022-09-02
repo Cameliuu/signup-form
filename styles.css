@@ -5,7 +5,7 @@ html,body{
     margin:0;
     padding: 0;
     overflow-x:hidden;
-    background-color: 	#1B262C;
+    background-color: 	#1b2932;
 }
 .text-container{
     text-align: left;
@@ -49,9 +49,11 @@ form{
     position: relative;
     left:-1.7%;
     border-radius: 5px;
-    height: 35vh;
-    background-color: #30444f;
+    height: 36vh;
+    background-color: #1b2932;
     width: 200vh;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 .form-container .cont{
     margin-left: 2vw;
@@ -63,5 +65,18 @@ input{
     width: 15vw;
     border-radius: 5px;
     height: 3vh;
+}
+input:focus{
+    border-color: #eb9928;
+    outline: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+input:invalid{
+    border-color: red;
+    outline: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+::placeholder{
+    color:#5f788a
 }
 
