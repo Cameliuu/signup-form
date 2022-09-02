@@ -1,22 +1,22 @@
+
 html,body{
     width: 100%;
     height: 100%;
     margin:0;
     padding: 0;
     overflow-x:hidden;
-    background-color: 	#2C3333;
+    background-color: 	#1B262C;
 }
 .text-container{
     text-align: left;
     margin: auto;
-    width: 40vw;
     font-family: 'Aboreto',serif;
-    font-size:2.5rem;
+    font-size:1em;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     position: relative;
-    right: -17%;
+    right:-16%;
     color:white;
     text-shadow: 4px 4px 4px black;
     width: 60vw;
@@ -27,4 +27,41 @@ html,body{
     height:100%;
     position: absolute;
 
+
 }
+input, label {
+    display:block;
+}
+
+form{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+    width: 50%;
+
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-container
+{
+    position: relative;
+    left:-1.7%;
+    border-radius: 5px;
+    height: 35vh;
+    background-color: #30444f;
+    width: 200vh;
+}
+.form-container .cont{
+    margin-left: 2vw;
+}
+.form-container .form-title{
+    margin-left: 2vw;
+}
+input{
+    width: 15vw;
+    border-radius: 5px;
+    height: 3vh;
+}
+
